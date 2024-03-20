@@ -1,0 +1,199 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial;
+}
+/* Header part */
+.header-panel {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #023047;
+  color: #dddddd;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.header-logo {
+  font-size: 25px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.header-text {
+  width: 97%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.box {
+  margin-right: 25px;
+  font-size: 1rem;
+}
+.text-home {
+  font-size: 1.1rem;
+}
+
+/* Hero section */
+.hero-section {
+  height: 720px;
+  width: 100%;
+  background-image: url(./images/IMG_1347.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: #219ebc;
+}
+.hero-text1 {
+  margin-left: 20px;
+  font-family: Arial;
+  font-size: 150px;
+  font-weight: 500;
+}
+.hero-text2 {
+  font-family: sans-serif;
+  margin-left: 20px;
+  font-size: 100px;
+}
+
+/* About me section */
+.aboutme-section {
+  height: 400px;
+  width: 100%;
+  color: #023047;
+  background-image: linear-gradient(180deg, #7dc5e7, #88cae9, #9ed0e7);
+}
+.aboutme-section h1 {
+  width: 100%;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.aboutme-section p {
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 30px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* image section */
+
+.img-section {
+  height: 600px;
+  width: 100%;
+  /* display: flex; */
+  /* align-items: center; */
+  background-image: linear-gradient(180deg, #9ed0e7, #add6e9, #c6e1ee);
+}
+.my-post {
+  height: 80px;
+  width: 100%;
+  margin-left: 20px;
+  font-size: 40px;
+  color: #023047;
+  font-weight: bold;
+}
+
+.img-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: smooth;
+  gap: 20px;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.img1 {
+  background-image: url("./images/ShadowofShreeMandir.jpg");
+
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+.img2 {
+  background-image: url("./images/college\ sky.jpg");
+  height: 400px;
+  width: 700px;
+  background-size: cover;
+}
+.img3 {
+  background-image: url("./images/me\ in\ hill.jpg");
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+.img4 {
+  background-image: url("./images/Hill\ shadow.jpg");
+  height: 400px;
+  width: 800px;
+  background-size: cover;
+}
+.img5 {
+  background-image: url("./images/Horizon\ RoofTop\ Moon.jpg");
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+.img6 {
+  background-image: url("./images/moon.jpg");
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+.img7 {
+  background-image: url("./images/rooftop\ moon.jpg");
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+.img8 {
+  background-image: url("./images/Sea\ beach.jpg");
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+.img9 {
+  background-image: url("./images/Shree\ mandir\ straight.jpg");
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+.img10 {
+  background-image: url("./images/Shree\ Mandir\ tilt.jpg");
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+.img11 {
+  background-image: url("./images/Sunset\ cloud.jpg");
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+.img12 {
+  background-image: url("./images/sunset.jpg");
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+
+/* Footer section */
+.footer-section {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #023047;
+  color: #dddddd;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.footer-section a {
+  color: #dddddd;
+  margin-left: 5px;
+}
