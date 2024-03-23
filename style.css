@@ -201,6 +201,8 @@
 @media  screen and (max-width: 600px) {
   .header-panel{
     height:25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
   }
   .header-logo{
     font-size: 12px;
