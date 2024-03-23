@@ -197,3 +197,113 @@
   color: #dddddd;
   margin-left: 5px;
 }
+
+@media  screen and (max-width: 600px) {
+  .header-panel{
+    height:25px;
+  }
+  .header-logo{
+    font-size: 12px;
+  }
+  .box {
+    margin-right: 20px;
+    font-size: 11px;
+  }
+  .hero-section {
+    height: 250px;
+  }
+  .hero-text1 {
+    margin-left: 20px;
+    font-size: 55px;
+  }
+  .hero-text2 {
+    font-size: 45px;
+  }
+
+  .aboutme-section {
+    height: 230px;
+    padding-top: 10px;
+  }
+  .aboutme-section h1 {
+    font-size: 28px;
+  }
+  
+  .aboutme-section p {
+    margin-top: 17px;
+    font-size: 13px;
+  }
+
+  .img-section {
+    height: 350px;
+  }
+  .my-post {
+    height: 60px;
+    margin-left: 20px;
+    font-size: 28px;
+    padding-top: 10px;
+  }
+  
+  .img-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 10px;
+  }
+  .img1{
+    height: 250px;
+    width: 200px;
+  }
+  .img2 {
+    height: 250px;
+    width: 400px;
+  }
+  .img3 {
+    height: 250px;
+    width: 200px;
+  }
+  .img4 {
+    height: 250px;
+    width: 500px;
+  }
+  .img5 {
+    height: 250px;
+    width: 210px;
+  }
+  .img6 {
+    height:250px ;
+    width: 300px;
+  }
+  .img7 {
+    height: 250px;
+    width: 350px;
+  }
+  .img8 {
+    height: 250px;
+    width: 200px;
+  }
+  .img9 {
+    height: 250px;
+    width: 200px;
+  }
+  .img10 {
+    height: 250px;
+    width: 200px;
+  }
+  .img11 {
+    height: 250px;
+    width: 400px;
+  }
+  .img12 {
+    height: 250px;
+    width: 180px;
+  }
+
+  .footer-section {
+    height: 50px;
+  }
+  .footer-section p{
+    font-size: 15px;
+  }
+  .footer-section i{
+    font-size: 12px;
+  }
+}
